@@ -18,7 +18,7 @@ body {
 }
 
 .one {
-    padding: 10px;
+    padding: 5px;
     background-color: #212529;
     color: #90e0ef;
     border-radius: 20px;
@@ -45,6 +45,7 @@ h3 {
 }
 
 .btn {
+    margin: 40px;
     padding: 10px 20px;
     /* Padding inside the button */
     background-color: #212529;
@@ -53,7 +54,7 @@ h3 {
     /* Button text color */
     border: none;
     /*Remove button border */
-    cursor: pointer;
+    /* cursor: pointer; */
     /* Change cursor on hover */
     border-radius: 8px;
     /*Add rounded corners */
