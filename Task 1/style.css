@@ -1,0 +1,98 @@
+body {
+    background-color: #e9ecef;
+}
+
+.main {
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    margin: 50px auto;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 70px;
+    padding-right: 5px;
+    background-color: #90e0ef;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.one {
+    padding: 10px;
+    background-color: #212529;
+    color: #90e0ef;
+    border-radius: 20px;
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+img {
+    padding-top: 10px;
+    height: 250px;
+}
+
+h3 {
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 2px;
+    margin-right: 50px;
+    background-color: #212529;
+    color: #90e0ef;
+}
+
+.btn {
+    padding: 10px 20px;
+    /* Padding inside the button */
+    background-color: #212529;
+    /*Button background color */
+    color: #90e0ef;
+    /* Button text color */
+    border: none;
+    /*Remove button border */
+    cursor: pointer;
+    /* Change cursor on hover */
+    border-radius: 8px;
+    /*Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /*Add shadow */
+    transition: background-color 0.3s ease, box-shadow 0.5s ease;
+    /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #c1d3fe;
+    /*Change background color on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    /*Enhance shadow on hover */
+}
+
+a {
+    color: #90e0ef;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #212529;
+}
+
+.para {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 70px;
+    overflow-y: scroll;
+    margin: 10px 0;
+    text-align: left;
+    min-width: 100px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.price {
+    padding-left: 10px;
+    text-align: left;
+    font-weight: 1000;
+    margin-top: 10px;
+}
